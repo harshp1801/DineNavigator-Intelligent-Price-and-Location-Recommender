@@ -5,6 +5,7 @@ Developed a user-friendly web page using HTML and CSS to display the recommendat
 Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data processing, modeling, and web development tasks.
 
 <br>
+
 ##  <img src="https://user-images.githubusercontent.com/106439762/181935629-b3c47bd3-77fb-4431-a11c-ff8ba0942b63.gif" width="48" height="48"> *Folder Structure Guide*
 
 | Files/Folder| Description |
