@@ -32,14 +32,36 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
 ## <img src=https://user-images.githubusercontent.com/106439762/178804195-d9db61fb-b2cf-4c8f-bfc3-214cfe0f534c.gif width="48" height="48" > Quick Summary
 
     1. The Price prediction model is created on Decision Tree and Location prediction model is created on Random Forest as accuracy for both of these was best than others.
- 
+  ![dctree](https://github.com/harshp1801/Recommender/assets/128036066/508eb5f6-b99d-4739-9155-7119e4a211e9.png)
+	
+  ![rfc](https://github.com/harshp1801/Recommender/assets/128036066/4b84bd14-2606-42a2-bf36-5b5068ebdd97.png)
+  
     2. Both of these models take three parameters, two of which are provided by the user they are Cuisine and Price For One and it takes the third parameter from the insights that is the Average Price For One of that location
+  
+  ![insightgenerator](https://github.com/harshp1801/Recommender/assets/128036066/20f5872c-81ba-4cde-b85d-dc31309e72f4)
+  ![avgpriceofarea](https://github.com/harshp1801/Recommender/assets/128036066/3d2a8528-156e-430c-9424-5cf41f623f6b.png)
+  
     
     3. All of this inputs are taken from the html landing page using flask and then is compare with pkl file and is later predicted.
-    
+  
+  	a) HTML code for Main Page
+  
+  ![htmlfile](https://github.com/harshp1801/Recommender/assets/128036066/ce9d3a51-d84c-4fd5-9c2e-36e16922a2a1)
+  
+  	b) HTML code for Prediction Page
+  
+  ![htmlfile2](https://github.com/harshp1801/Recommender/assets/128036066/bb2e325b-8f7c-41eb-9f76-235395194cda)
+  
+  	c) Css Code For both Pages
+  
+  ![csssfile](https://github.com/harshp1801/Recommender/assets/128036066/63cc22df-03f3-4bbb-8591-bc6bbd3c8eec) 
+  
     4. We connected all the Notebooks to a main Python file using a library  'importnb'
     
     5. Later when all the Notebooks were connected, we used flask to deploy the model on Web Page
+    
+   ![dep1](https://github.com/harshp1801/Recommender/assets/128036066/458dd813-8c00-4381-9206-652983b01aac)
+   ![dep2](https://github.com/harshp1801/Recommender/assets/128036066/84af5783-666e-4182-9267-eda8696dc619)
     
     6. Flask was used to Get and post the data on webpage
 	
