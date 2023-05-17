@@ -47,13 +47,13 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
   
   	a) HTML code for Main Page
   
-  ![htmlfile](https://github.com/harshp1801/Recommender/assets/128036066/ce9d3a51-d84c-4fd5-9c2e-36e16922a2a1)
-  
+  ![Index](https://github.com/harshp1801/Used-Car-Analysis-Dashboard/assets/128036066/2bd02ac6-d244-4ea2-aa3b-a9852c35dc21)
+
   	b) HTML code for Prediction Page
   
-  ![htmlfile2](https://github.com/harshp1801/Recommender/assets/128036066/bb2e325b-8f7c-41eb-9f76-235395194cda)
-  
-  	c) Css Code For both Pages
+  ![prediction](https://github.com/harshp1801/Used-Car-Analysis-Dashboard/assets/128036066/49670034-ce6c-412d-9d07-9e911bd94e34)
+  	
+	c) Css Code For both Pages
   
   ![csssfile](https://github.com/harshp1801/Recommender/assets/128036066/63cc22df-03f3-4bbb-8591-bc6bbd3c8eec) 
   
