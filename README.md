@@ -32,13 +32,14 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
 ## <img src=https://user-images.githubusercontent.com/106439762/178804195-d9db61fb-b2cf-4c8f-bfc3-214cfe0f534c.gif width="48" height="48" > Quick Summary
 
     1. The Price prediction model is created on Decision Tree and Location prediction model is created on Random Forest as accuracy for both of these was best than others.
-  ![dctree](https://github.com/harshp1801/Recommender/assets/128036066/508eb5f6-b99d-4739-9155-7119e4a211e9.png)
+  ![DCMODEL](https://github.com/harshp1801/AutoInsights-Used-Car-Analysis-Dashboard/assets/128036066/fcc1a30b-5bff-4f8d-9cff-596d82ff9cc6)
 	
-  ![rfc](https://github.com/harshp1801/Recommender/assets/128036066/4b84bd14-2606-42a2-bf36-5b5068ebdd97.png)
-  
+  ![RFCMODEL](https://github.com/harshp1801/AutoInsights-Used-Car-Analysis-Dashboard/assets/128036066/f9dbe100-b85f-40df-a5a1-1ecfb8b93661)
+
     2. Both of these models take three parameters, two of which are provided by the user they are Cuisine and Price For One and it takes the third parameter from the insights that is the Average Price For One of that location
   
-  ![insightgenerator](https://github.com/harshp1801/Recommender/assets/128036066/20f5872c-81ba-4cde-b85d-dc31309e72f4)
+  ![InsightsGenerator](https://github.com/harshp1801/AutoInsights-Used-Car-Analysis-Dashboard/assets/128036066/8a7d01ec-6bc1-432f-8ac6-be2234914ac5)
+  
   ![avgpriceofarea](https://github.com/harshp1801/Recommender/assets/128036066/3d2a8528-156e-430c-9424-5cf41f623f6b.png)
   
     
