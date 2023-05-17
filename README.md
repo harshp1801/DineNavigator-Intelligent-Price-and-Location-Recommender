@@ -1,4 +1,4 @@
-# <img src=https://user-images.githubusercontent.com/122404051/235878740-0f447969-b786-41de-93ca-a4528a4db470.gif width="48" height="48" >  Restaurant-Recommendation-Model
+# <img src=https://user-images.githubusercontent.com/122404051/235878740-0f447969-b786-41de-93ca-a4528a4db470.gif width="48" height="48" >  DineNavigator-Intelligent-Price-and-Location-Recommender
 Built a web-based recommendation model using machine learning algorithms to recommend optimal restaurant locations and prices based on user preferences for cuisine, location, and price.
 Used Jupyter Notebook to train the machine learning algorithms, and implemented the model using Flask web framework.
 Developed a user-friendly web page using HTML and CSS to display the recommendation results.
