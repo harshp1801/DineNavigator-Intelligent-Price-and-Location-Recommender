@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel = "stylesheet" href="{{ url_for('static', filename='style2.css') }}" > <!-- Linking With The Css File-->
+    </head>
+   <header>
+      <h1>The Recommendations And Area Insights</h1> <!-- Initializing Heading -->
+   </header>
+   <body>
+    <div class = headings> <!-- Initializing Sub Headings -->
+      <h3 style="margin-right:40%">Predictions</h3> 
+      <h3 style="margin-right:10%">Insights</h3>
+    </div>
+    <div class="row">
+        <table style="margin-right: 10%;">  <!-- All The Prdictions are Mentioned in this Table-->>
+          <tr> <!-- Presenting Preferred Price for that Location in tabulated Form -->
+            <td>Preferred Price:-</td> 
+            <td>{{prediction}}</td>  <!-- Calling Preferred Price Predicted by model using FLask -->
+          </tr>
+          <br>
+          <tr> <!-- Presenting Preferred location for that Cuisine and Price in tabulated Form -->
+            <td>Preferred Location:-</td>
+            <td>{{locationpred}}</td>  <!-- Calling Preferred location Predicted by model using FLask -->
+          </tr>
+        </table>
+        <table> <!-- All The Insights are Presented in this table -->>
+          <tr> 
+            <td>Average Price for one :-</td> 
+            <td>{{ prediction1}}</td> <!-- Presenting the avg price for one as per location -->
+          </tr>
+          <br>
+          <tr>
+            <td>Popular Cuisine :-</td>
+            <td>{{ prediction2}}</td> <!-- Presenting the Popular Cuisine as per location -->
+          </tr>  
+          <br>
+          <tr>
+            <td> Most Popular Restaurant :-</td>
+            <td> {{ prediction3}}</td> <!-- Presenting the Most Popular Restaurant in that location -->
+          </tr>  
+          <br>
+          <tr>
+            <td>Cuisine Served :-</td>
+            <td>{{ prediction4 }}</td> <!-- Presenting The Most Popular Cuisine Served in that Restaurant -->
+          </tr>
+          <br>
+          <tr>
+            <td>Popular Restaurant that serves our cuisine :-</td>
+            <td>{{ prediction5}}</td> <!-- Presenting the Most Popular Restaurant in the location as per Cuisine -->
+          </tr>
+        </table>   
+   </body>
+</html>
